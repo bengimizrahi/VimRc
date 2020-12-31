@@ -22,4 +22,9 @@ nnoremap <leader>vs :source $MYVIMRC<cr>
                      " Maps to 'source .vimrc'
 
 " C/C++ Related Shortcuts
-nnoremap <leader>cu iSCENARIO("Name", "[Tag]") { }<Esc>FT
+nnoremap <leader>cus iSCENARIO("Name", "[Tag]") { }<Esc>FT
+nnoremap <leader>cug iGIVEN("Setup") { }<Esc>FS
+nnoremap <leader>cuw iWHEN("Condition") { }<Esc>FC
+nnoremap <leader>cua iAND_WHEN("Condition") { }<Esc>FC
+nnoremap <leader>cur iREQUIRE(true);<Esc>Ft
+
