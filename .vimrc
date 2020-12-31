@@ -21,6 +21,9 @@ nnoremap <leader>ve :split $MYVIMRC<cr>
 nnoremap <leader>vs :source $MYVIMRC<cr>
                      " Maps to 'source .vimrc'
 
+" Genenal Shortcuts
+inoremap kj <Esc>
+
 " C/C++ Related Shortcuts
 nnoremap <leader>cus iSCENARIO("Name", "[Tag]") { }<Esc>FT
 nnoremap <leader>cug iGIVEN("Setup") { }<Esc>FS
