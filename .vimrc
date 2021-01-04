@@ -23,6 +23,10 @@ nnoremap <leader>vs :source $MYVIMRC<cr>
 
 " Genenal Shortcuts
 inoremap kj <Esc>
+nnoremap <leader>h ^
+nnoremap <leader>H 0
+nnoremap <leader>l $
+
                      " Escape using 'kj'
 nnoremap <leader>" e<Esc>a"<Esc>bi"<Esc>lel
                      " Add double quotes around word
