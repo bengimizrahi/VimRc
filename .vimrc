@@ -23,6 +23,15 @@ nnoremap <leader>vs :source $MYVIMRC<cr>
 
 " Genenal Shortcuts
 inoremap kj <Esc>
+                     " Escape using 'kj'
+nnoremap <leader>" e<Esc>a"<Esc>bi"<Esc>lel
+                     " Add double quotes around word
+vnoremap <leader>" <Esc>`<i"<Esc>`>a"<Esc>
+                     " Add double quotes around selection
+nnoremap <leader>' e<Esc>a'<Esc>bi'<Esc>lel
+                     " Add single quotes around word
+vnoremap <leader>' <Esc>`<i'<Esc>`>a'<Esc>
+                     " Add single quotes around selection
 
 " C/C++ Related Shortcuts
 nnoremap <leader>cus iSCENARIO("Name", "[Tag]") { }<Esc>FT
