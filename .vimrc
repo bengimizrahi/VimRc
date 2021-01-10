@@ -23,6 +23,7 @@ nnoremap <leader>vs :source $MYVIMRC<cr>
 
 " Genenal Shortcuts
 inoremap kj <Esc>
+inoremap KJ <Esc>
 nnoremap <leader>h ^
 nnoremap <leader>H 0
 nnoremap <leader>l $
